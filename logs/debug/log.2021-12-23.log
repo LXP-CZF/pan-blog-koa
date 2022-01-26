@@ -1,0 +1,36 @@
+[2021-12-23T14:29:31.598] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][404]请求成功
+请求参数: 
+undefined
+服务器响应时间: 0ms
+[2021-12-23T14:29:33.739] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]该用户已存在
+请求参数: 
+undefined
+服务器响应时间: 0ms
+[2021-12-23T14:30:10.895] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]该用户已存在
+请求参数: 
+undefined
+服务器响应时间: 0ms
+[2021-12-23T14:31:51.293] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]该用户已存在
+请求参数: 
+{"username":"20211223","password":"1429","text":212,"gender":2}
+服务器响应时间: 0ms
+[2021-12-23T16:40:28.939] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][404]请求成功
+请求参数: 
+{"username":"20211223-01","password":"1429","text":212,"gender":2}
+服务器响应时间: 0ms
+[2021-12-23T17:14:03.912] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][200]请求成功
+请求参数: 
+{"username":"20211223-02","password":"1429","text":212,"gender":2}
+服务器响应时间: 0ms
+[2021-12-23T17:16:24.652] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][200]请求成功
+请求参数: {"username":"20211223-03","password":"1429","text":212,"gender":2}
+服务器响应时间: 0ms
+[2021-12-23T17:18:12.354] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]
+该用户已存在，请求参数: {"username":"20211223-03","password":"1429","text":212,"gender":2}
+服务器响应时间: 0ms
+[2021-12-23T17:18:50.702] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]
+该用户已存在，请求参数: {"username":"20211223-03","password":"1429","text":212,"gender":2}，服务器响应时间: 0ms
+[2021-12-23T17:19:54.211] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]
+[该用户已存在]请求参数: {"username":"20211223-03","password":"1429","text":212,"gender":2},服务器响应时间: 0ms
+[2021-12-23T17:22:10.838] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]
+[该用户已存在]请求参数: {"username":"20211223-03","password":"1429","text":212,"gender":2},服务器响应时间: 0ms

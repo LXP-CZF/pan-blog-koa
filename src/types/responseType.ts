@@ -1,6 +1,8 @@
+
+import { codeEnum } from '../types/codeEnum'
 export interface resType<T = any>{
     data: T | null,
-    code: number,
+    code: codeEnum,
     message: string
 }
 

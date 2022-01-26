@@ -1,0 +1,71 @@
+[2021-12-22T16:57:25.718] [DEBUG] debug - 资源不存在
+[2021-12-22T17:03:07.355] [DEBUG] debug - request method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+ undefined
+[2021-12-22T17:05:47.748] [DEBUG] debug - request method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+ undefined
+[2021-12-22T17:07:51.450] [DEBUG] debug - undefinedrequest method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+
+[2021-12-22T17:08:15.892] [DEBUG] debug - undefinedrequest method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+
+[2021-12-22T17:10:54.455] [DEBUG] debug - undefinedrequest method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+
+[2021-12-22T17:11:19.914] [DEBUG] debug - undefinedrequest method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+
+[2021-12-22T17:12:04.643] [DEBUG] debug - undefinedrequest method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+
+[2021-12-22T17:13:41.421] [DEBUG] debug - undefinedrequest method: undefined
+request originalUrl:  undefined
+request client ip:  undefined
+request body: 
+undefined
+response time: 0
+
+[2021-12-22T17:35:56.174] [DEBUG] debug - "该用户已存在"
+[2021-12-22T17:37:49.432] [DEBUG] debug - "该用户已存在"undefined
+[2021-12-22T17:41:08.583] [DEBUG] debug - {"request":{"method":"POST","url":"/users/createUser","header":{"x-forwarded-host":"192.168.10.132:8080","x-forwarded-proto":"http","x-forwarded-port":"8080","x-forwarded-for":"192.168.10.132","accept-language":"zh-CN,zh;q=0.9","accept-encoding":"gzip, deflate","referer":"http://192.168.10.132:8080/","origin":"http://192.168.10.132:8080","content-type":"application/json","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36","accept":"application/json, text/plain, */*","content-length":"63","connection":"close","host":"127.0.0.1:3009"}},"response":{"status":500,"message":"Internal Server Error","header":{}},"app":{"subdomainOffset":2,"proxy":true,"env":"dev"},"originalUrl":"/users/createUser","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}该用户已存在
+[2021-12-22T17:41:46.305] [DEBUG] debug - [192.168.10.132][/users/createUser][POST][500]该用户已存在
+请求参数: 
+undefined
+服务器响应时间: 0
+
+[2021-12-22T17:44:35.604] [DEBUG] debug - [::ffff:127.0.0.1][/user][GET][404]资源不存在
+请求参数:  {}
+服务器响应时间: 0ms
+[2021-12-22T17:44:36.316] [DEBUG] debug - [::ffff:127.0.0.1][/user][GET][404]资源不存在
+请求参数:  {}
+服务器响应时间: 0ms
