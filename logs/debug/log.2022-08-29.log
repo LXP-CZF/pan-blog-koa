@@ -1,0 +1,8 @@
+[2022-08-29T18:24:59.649] [DEBUG] debug - [::ffff:127.0.0.1][/users/createUser][POST][200]
+[请求成功]请求参数: {"username":"13811111111","password":"246810","age":18,"text":212},服务器响应时间: 0ms
+[2022-08-29T18:52:53.961] [DEBUG] debug - [::ffff:127.0.0.1][/users/login][POST][200]
+[请求成功]请求参数: {"username":"13811111111","password":"246810","age":18,"text":212},服务器响应时间: 1ms
+[2022-08-29T19:04:50.992] [DEBUG] debug - [::ffff:127.0.0.1][/users/login][POST][200]
+[请求成功]请求参数: {"username":"13811111111","password":"246810","age":18,"text":212},服务器响应时间: 0ms
+[2022-08-29T19:04:51.252] [DEBUG] debug - [::ffff:127.0.0.1][/users/pageFindUser][POST][200]
+[请求成功]请求参数: {"condition":{},"page":{"pageCurrent":2,"pageSize":5}},服务器响应时间: 0ms

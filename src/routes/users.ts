@@ -5,7 +5,7 @@ import { success, serverError, badRequest } from '../utils/httpStatus'
 import { codeEnum } from '../types/codeEnum'
 import { pageParamType } from '../types/pageParam'
 import { dataPageType } from '../types/responseType'
-import { createToken } from '../utils/token'
+import { create_token } from '../utils/token/index'
 
 const router = new Router()
 
@@ -13,12 +13,13 @@ router.prefix('/users')
 
 router.post('/login', async (ctx: ParameterizedContext) => {
   const postParam: userType = ctx.request.body //获取post提交的数据
-  await User.find(postParam).then(res => {
-    if (res.length === 0) {   // 数据库中没有匹配到用户
+  await User.find(postParam).then((res) => {
+    if (res.length === 0) {
+      // 数据库中没有匹配到用户
       ctx.status = codeEnum.SERVER_ERROR
       ctx.body = serverError(ctx, '用户名或密码错误')
     } else {
-      const token = createToken(postParam)
+      const token = create_token(postParam.username)
       let res = { ...postParam }
       res.token = token
       ctx.status = codeEnum.SUCCESS
@@ -54,7 +55,7 @@ router.post('/createUser', async (ctx: ParameterizedContext) => {
         ctx.body = badRequest(err.message)
       } else {
         ctx.status = codeEnum.SERVER_ERROR
-        ctx.body = serverError(ctx,err)
+        ctx.body = serverError(ctx, err)
       }
     })
 })
@@ -76,7 +77,7 @@ router.post('/updateUser', async (ctx: ParameterizedContext) => {
         ctx.body = badRequest(err.message)
       } else {
         ctx.status = codeEnum.SERVER_ERROR
-        ctx.body = serverError(ctx,err)
+        ctx.body = serverError(ctx, err)
       }
     })
 })
@@ -89,7 +90,7 @@ router.get('/deleteUser/:id', async (ctx: ParameterizedContext) => {
     })
     .catch((err) => {
       ctx.status = codeEnum.SERVER_ERROR
-      ctx.body = serverError(ctx,err)
+      ctx.body = serverError(ctx, err)
     })
 })
 
